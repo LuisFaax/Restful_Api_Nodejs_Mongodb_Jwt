@@ -1,0 +1,29 @@
+{
+  "name": "api-resftul-concerts",
+  "version": "1.0.0",
+  "description": "API RESTful Concerts, NodeJS, Mongodb and Jwt",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose",
+    "NodeJS",
+    "JWT"
+  ],
+  "author": "Luis Fax  @luisfaax",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "crypto": "^1.0.1",
+    "express": "^4.15.3",
+    "joi": "^10.6.0",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.16.0",
+    "mongoose": "^4.10.8"
+  }
+}
