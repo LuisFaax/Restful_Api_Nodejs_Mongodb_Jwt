@@ -12,11 +12,6 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 
 
-//create a welcome route
-app.get('/', (req, res) => {
-    res.send({message: "Welcome to Concerts RESTful API,  ¡¡Have fun!! "})
-});
-
 //api concerts routes
 require('./routes/concerts.js')(app)
 
